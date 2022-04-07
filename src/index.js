@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello, Service is listening,Monday !');
+  res.send('Hello, Service is listening,Tuesday!');
 });
 
 app.use('/v1', router);
